@@ -1,0 +1,93 @@
+/* ページヘッダー */
+.page-header {
+    padding-top: 40%;
+    background: url(../images/bg-main_visual.jpg) center top no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.page-header__logo {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+
+/* 各セクション */
+.section {
+    padding: 100px 0;
+}
+
+.section__title,
+.section__title--white {
+    margin-bottom: 50px;
+    font-size: 3.2rem;
+    line-height: 1.0;
+    text-align: center;
+}
+
+.section__title--white {
+    color: #fff;
+}
+
+.section__text {
+    font-size: 1.6rem;
+    line-height: 2.0;
+    text-align: center;
+  }
+
+.section__text:not(:last-child) {
+    margin-bottom: 70px;
+}
+
+#introduction {
+    background-color: #fffff3;
+}
+
+/* 導入企業様 */
+#client {
+    background-color: #fffff3;
+}
+
+.client-list {
+    display: flex;
+    justify-content: space-between;
+    width: 780px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+/* ページフッター */
+.page-footer {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    padding: 24px 20px;
+    background-color: #000;
+}
+
+.page-footer p {
+    font-size: 1.2rem;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+.page-footer__nav ul {
+    display: flex;
+}
+
+.page-footer__nav ul li {
+    line-height: 1;
+}
+
+.page-footer__nav ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.page-footer__nav ul a {
+    font-size: 1.2rem;
+    color: #fff;
+}
